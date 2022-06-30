@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_xcYF0IFAEem098IFQg5FbQ" name="testuml">
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_xpvMYIFAEem098IFQg5FbQ">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Class" xmi:id="_4PnUMIFAEem098IFQg5FbQ" name="Class2">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_6yjLAIFAEem098IFQg5FbQ" name="Property1"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_8xtmYIFAEem098IFQg5FbQ" name="Property2"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_DYyBAIFBEem098IFQg5FbQ" name="class3" type="_5E1sAIFAEem098IFQg5FbQ" association="_DYtIgIFBEem098IFQg5FbQ">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_DYyoEIFBEem098IFQg5FbQ"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_DYzPIIFBEem098IFQg5FbQ" value="1"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_5E1sAIFAEem098IFQg5FbQ" name="Class3">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_8WYVQIFAEem098IFQg5FbQ" name="Property1"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_DYtIgIFBEem098IFQg5FbQ" memberEnd="_DYyBAIFBEem098IFQg5FbQ _DYzPIYFBEem098IFQg5FbQ">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_DYvkwIFBEem098IFQg5FbQ" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_DYvkwYFBEem098IFQg5FbQ" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_DYzPIYFBEem098IFQg5FbQ" name="class2" type="_4PnUMIFAEem098IFQg5FbQ" association="_DYtIgIFBEem098IFQg5FbQ"/>
+  </packagedElement>
+</uml:Model>
